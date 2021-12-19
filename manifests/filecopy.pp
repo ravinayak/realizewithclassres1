@@ -7,7 +7,7 @@ class realizewithclassres1::filecopy{
     owner  => 'neo5',
     group  => 'neo5',
     mode   => '0755',
-    source => '/codetestfiles/virtualexecfile.txt',
+    source => '/codetestfiles/virtualexecfile66.txt',
   }
 
 }

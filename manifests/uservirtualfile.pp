@@ -2,7 +2,7 @@ class realizewithclassres1::uservirtualfile {
   user {'neo5':
     ensure => present,
   }
-  file{'/codetestfiles/virtualfile.txt':
+  file{'/codetestfiles/virtualfile66.txt':
     ensure  => file,
     owner   => 'neo5',
     group   => 'neo5',
@@ -11,7 +11,7 @@ class realizewithclassres1::uservirtualfile {
     tag     => 'virtualfiles'
   }
 
-  file{'/codetestfiles/virtualexecfile.txt':
+  file{'/codetestfiles/virtualexecfile66.txt':
     ensure => file,
     owner  => 'vagrant',
     group  => 'vagrant',
